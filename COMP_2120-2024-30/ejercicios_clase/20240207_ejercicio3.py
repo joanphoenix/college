@@ -1,7 +1,7 @@
 # Realizar un programa que transforme la temperatura de grados
-# fahrenheit a grados centigrados.
+# Fahrenheit a grados centígrados.
 
-# Donde la entrada es la variable F-fahrenheit.
+# Donde la entrada es la variable F-Fahrenheit.
 
 # C = 5/9*(F-32)
 
@@ -23,17 +23,17 @@
 # inicio: declarar variables
 # declarar que F, C son tipo Real
 # solicitar la entrada del valor a las variables: F, C
-# enviar mensaje de declaracion de las variables:
+# enviar mensaje de declaración de las variables:
 # print "ingrese la temperatura en grados F:"
 # entrada del valor de F
-# Realizar un proceso matematico para transformar el valor de F a
-# centigrados:
+# Realizar un proceso matemático para transformar el valor de F a
+# centígrados:
 # C =  5/9*(F-32)
 # Salida:
-# Mostrar el resultado del proceso matematico de F guardado en C
-# print 'la temperatura de Fahrenheit a centigrados seria:',C
+# Mostrar el resultado del proceso matemático de F guardado en C
+# print 'la temperatura de Fahrenheit a centígrados seria:',C
 
-# -Codigo en python
+# -Código en python
 
 # Declarar tipo de variables
 
@@ -45,13 +45,13 @@ print(
 )
 F = float(input())
 
-# Tranformar la temperatura Fahrenheit a Celsius con proceso matematico
+# Transformar la temperatura Fahrenheit a Celsius con proceso matemático
 # guardado en la variable C
 
 print("Transformando de Fahrenheit a Celsius...")
 
 C = float(5.0 / 9.0 * (F - 32.0))
 
-# Mostrar el resultado de la transformacion de F a C
+# Mostrar el resultado de la transformación de F a C
 
-print("La temperatura en centigrados es:", C)
+print("La temperatura en centígrados es:", C)
