@@ -1,0 +1,13 @@
+Programa para calcular el indice de masa corporal
+
+Pseudocodigo
+
+inicio
+ declarar Altura, Peso, IMC son Reales
+ imprimir "Ingrese la altura en metros:"
+ leer Altura
+ imprimir "Ingrese el peso corporal en kilogramos:"
+ leer Peso
+ IMC = Peso * 703 / (Altura * Altura)
+ imprimir "El indice de masa corporal es:", IMC
+fin

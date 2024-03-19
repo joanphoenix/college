@@ -1,0 +1,14 @@
+Programa para calcular calorias de grasas y carbohidratos
+
+Pseudocodigo
+
+inicio
+ declarar Grasas, Carbohidratos, Calorias*Carbohidratos, Calorias_Grasa son Reales
+ imprimir "Ingrese las grasas consumidas:"
+ leer Grasas
+ imprimir "Ingrese los carbohidratos consumidos:"
+ leer Carbohidratos
+ Calorias_Grasa = Grasas * 9
+ Calorias*Carbohidratos = Carbohidratos * 4
+ imprimir "El total de calorias consumidas es:",Calorias_Grasa, "calorias por grasas y",Calorias_Carbohidratos, "calorias por carbohidratos; por lo tanto, el total de calorias consumidas es:", Calorias_Grasa + Calorias_Carbohidratos, "calorias."
+fin

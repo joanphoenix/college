@@ -1,0 +1,11 @@
+Programa para convertir la distancia de kilometros a millas
+
+Pseudocodigo
+
+inicio
+ declarar kilometros, millas son Reales
+ imprimir "Ingrese la distancia en kilometros para convertirla a millas:"
+ leer kilometros
+ millas = kilometros * 0.6214
+ imprimir "La conversion de", kilometros, "kilometros a millas es:", millas, "millas." 
+fin
