@@ -68,7 +68,7 @@ def impTriangulo(n):
 
 
 # main
-impTriangulo(10)
+#impTriangulo(10)
 
 
 #
@@ -81,4 +81,36 @@ def factorial(n):
     return resultado
 
 
-print(factorial(4))
+#print(factorial(4))
+
+import random
+
+def Dado():
+	x = random.randint(1, 6)
+	return x
+#print(Dado())
+
+def repetirDado():
+	for i in range(1, 11):
+		print(Dado())
+
+def repetirDadoH():
+	cadena = ""
+	for i in range(1, 11):
+		cadena += str(Dado())
+	print(cadena)
+
+import math
+
+def hipotenusa(a,b):
+	hipot = math.sqrt(a * a + b * b)
+	return hipot
+#print(hipotenusa(3,4))
+
+
+def sumamultiplos(valorInicial, valorFinal, n):
+	suma = 0
+	for i in range(valorInicial, valorFinal + 1):
+		if i % n == 0:
+			suma += i
+	return(suma)

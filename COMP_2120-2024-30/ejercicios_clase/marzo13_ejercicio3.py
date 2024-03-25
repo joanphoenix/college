@@ -29,3 +29,11 @@ for i in range(valorInicial, valorFinal):
         suma += i
 # imprimir la suma
 print(suma)
+
+
+def sumamultiplos(valorInicial, valorFinal, n):
+	suma = 0
+	for i in range(valorInicial, valorFinal + 1):
+		if i % n == 0:
+			suma += i
+	return(suma)
