@@ -1,0 +1,65 @@
+1. Utilizando búsqueda secuencial, realice el siguiente ejercicio: 
+    Asuma que se tiene un arreglo [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+        a. ¿Cuántos elementos tiene el arreglo?
+            - 10 elementos.
+        b. ¿Qué elemento se encuentra en el índice 4?
+            - 5. 
+        c. ¿Qué elementos se examinan si se busca el 5?
+            - 1, 2, 3, 4, 5.
+        d. ¿Qué elementos se examinan si se busca el 9?
+            - 1, 2, 3, 4, 5, 6, 7, 8, 9. 
+        e. ¿Qué elementos se examinan si se busca el 0?
+            - 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. No existe en el arreglo. 
+        f. ¿Qué elementos se examinan si se busca el 11?
+            -  1, 2, 3, 4, 5, 6, 7, 8, 9, 10. No existe en el arreglo.
+
+2. Utilizando búsqueda binaria, realice el siguiente ejercicio:  
+    Asuma que se tiene el siguiente arreglo: [2, 4, 6, 8, 10, 12, 14, 16, 18] 
+        a. ¿Cuántos elementos tiene el arreglo?
+            - 9 elementos. 
+        b. ¿Qué elemento se encuentra en el índice 5?
+            - 12. 
+        c. ¿Qué elementos se examinan si se busca el 4?
+            - 10, 4.
+        d. ¿Qué elementos se examinan si se busca el 16?
+            - 10, 14, 16.
+        e. ¿Qué elementos se examinan si se busca el 0?
+            -  10, 2, 4, 6, 8. No existe en el arreglo.
+        f. ¿Qué elementos se examinan si se busca el 11?
+            - 10, 12. No existe en el arreglo. 
+
+3. Ordene el siguiente arreglo utilizando el algoritmo de ordenamiento por burbuja: 
+[5, 3, 9, 1, 2] 
+    
+    Paso 1:
+    3, 5, 9, 1, 2 
+    Paso 2:
+    1, 3, 5, 9, 2
+    Paso 3:
+    1, 2, 3, 5, 9
+    Paso 4:
+    1, 2, 3, 5, 9
+
+4. Ordene el siguiente arreglo utilizando el ordenamiento por selección: 
+[5, 3, 9, 1, 2] 
+    
+    Paso 1:
+    3, 5, 9, 1, 2 
+    Paso 2:
+    1, 3, 5, 9, 2
+    Paso 3:
+    1, 2, 3, 5, 9
+    Paso 4:
+    1, 2, 3, 5, 9
+ 
+5. Ordene el siguiente arreglo utilizando el ordenamiento por inserción:  
+[5, 3, 9, 1, 2]
+    
+    Paso 1:
+    3, 5, 9, 1, 2
+    Paso 2:
+    1, 3, 5, 9, 2
+    Paso 3:
+    1, 2, 3, 5, 9
+    Paso 4:
+    1, 2, 3, 5, 9

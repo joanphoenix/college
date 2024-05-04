@@ -31,9 +31,12 @@ for i in range(valorInicial, valorFinal):
 print(suma)
 
 
-def sumamultiplos(valorInicial, valorFinal, n):
-	suma = 0
-	for i in range(valorInicial, valorFinal + 1):
-		if i % n == 0:
-			suma += i
-	return(suma)
+def sumaMultiplos(valorInicial, valorFinal, n):
+    suma = 0
+    for i in range(valorInicial, valorFinal + 1):
+        if i % n == 0:
+            suma += i
+    return suma
+
+
+print(sumaMultiplos(25, 50, 7))

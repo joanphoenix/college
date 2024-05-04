@@ -1,0 +1,93 @@
+Primera Parte:  
+
+ 1.  Vea el siguiendo pseudocódigo: 
+ 
+    Constant Integer SIZE = 20 
+    Declare Integer values[SIZE] 
+ 
+        a. ¿Cuántos elementos tendrá el arreglo? 
+            -Tendra 20 elementos.
+        b. ¿Cuál es el suscrito del primer elemento del arreglo?
+            - Es 0.
+        c. ¿Cuál es el suscrito del último elemento del arreglo?
+            - Es 19.
+
+ 2. Vea el siguiente pseudocodigo: 
+ 
+    Constant Integer SIZE = 5 
+    Declare Integer numbers[SIZE] = 1, 2, 3, 4, 5 
+ 
+        a. ¿Qué valor se almacena en numbers[2]?
+            - Es 3. 
+        b. ¿Qué valor se almacena en numbers[0]?
+            - Es 1.
+
+Segunda Parte:
+
+    1. Escriba un pseudocódigo que permita declarar un arreglo de String inicializado con los siguientes strings: “Pedro”, “Juan”, “Luis”, “María” y “Laura”. 
+
+        str names[5] = "Pedro", "Juan", "Luis", "María", "Laura"
+        
+    2. Asuma que las siguientes declaraciones aparecen en un pseudocódigo de un programa: 
+        Constant Integer SIZE = 100 
+        Declare Integer firstArray[SIZE] 
+        Declare Integer secondArray[SIZE] 
+    
+      También, asuma que los valores han sido almacenados en cada elemento de firstArray. Diseñe un algoritmo que copie los elementos de firstArray al secondArray.
+
+        for i = 0 to SIZE
+            secondArray[i] = firstArray[i]
+        endfor
+
+Tercera Parte:
+
+    1. Diseñe  un  programa  que  le  permita  ingresar  al  usuario  las  ventas  totales  diarias  para  una  semana.  Las cantidades deben almacenarse en un arreglo, Utilice un ciclo para calcular el total de ventas para la semana y muestre el resultado en pantalla.
+    
+    start
+        
+        declare int ventas[7] = 0, 0, 0, 0, 0, 0, 0
+        declare int total = 0
+        for i = 0 to 6, step = 1
+            display("Entre ventas para el dia ", i + 1, ": ")
+            ventas[i] = int(input())
+            total = total + ventas[i]
+        endfor
+
+        display("Total de ventas en la semana: ", total)
+
+    end
+ 
+    2. Diseñe un programa que le permita al usuario ingresar 20 valores numéricos. El programa debe almacenar los números en un arreglo y debe mostrar lo siguiente: 
+        a. El valor más pequeño en el arreglo 
+        b. El valor más grande en el arreglo 
+        c. La suma total de todos los números en el arreglo. 
+        d. El promedio de los números en el arreglo. 
+
+    start
+
+        declare int valores[20] = 0
+        declare int min = 0
+        declare int max = 0
+        declare int total = 0
+        declare int promedio = 0
+        for i = 0 to 19, step = 1
+            display("Entre el valor ", i + 1, ": ")
+            valores[i] = int(input())
+            if i = 0
+                min = valores[i]
+                max = valores[i] 
+            endif
+            if valores[i] < min
+                min = valores[i]
+            endif
+            if valores[i] > max
+                max = valores[i]
+            endif
+            total = total + valores[i]
+        endfor
+        promedio = total / 20
+        display("Min valor: ", min)
+        display("Max valor: ", max)
+        display("Total: ", total)
+        display("Promedio: ", promedio)
+    end

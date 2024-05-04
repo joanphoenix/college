@@ -1,0 +1,87 @@
+Asignacion 5: Funciones
+
+Primera Parte:
+
+1. ¿Cual es la diferencia entre un modulo y una funcion?
+   - Las funciones son bloques de código más pequeños que realizan tareas específicas, mientras que los módulos son colecciones más grandes de funciones y otros recursos relacionados.
+
+2. ¿Cuales son las tres caracteristicas de una funcion descritas en un grafico IPO? 
+   - COMP2120_HW#5/funcionIPO.png (grafico de la IPO)
+
+Segunda Parte:
+
+1. Escriba una funcion en seudocodigo que genere un numero aleatorio en el rango de 1 a 50.
+
+   function randomNum(): integer
+      return random(1, 50)
+   endfunction
+
+2. Diseñe una funcion en seudocodigo llamada getFirstName que le permita al usuario ingresar su nombre y su apellido (debe usar input dentro de la funcion). La funcion debera devolver el nombre y el apellido del usuario. (concatenado)
+
+function getFirstName(): string
+   declare name: string
+   declare lastName: string
+   name = input("Enter your name: ")
+   lastName = input("Enter your last name: ")
+   return name + " " + lastName
+endfunction
+
+3. 
+   a) Escriba una funcion en seudocodigo que calcule el area de un rectangulo de acuerdo con la siguiente formula: area = ancho * largo
+      Diseñe una funcion que acepte el ancho y largo de un rectangulo como argumentos de entrada y devuelva el area del rectangulo. 
+
+      function areaRectangulo(largo: integer, ancho: integer): integer
+         return ancho * largo
+      endfunction
+
+   b) Escriba el codigo Python y pruebe la funcion de tal manera que le pregunte al usuario por el ancho y el largo del rectangulo, y luego muestre el area del rectangulo utilizando la funcion.
+
+      def areaRectangulo(largo, ancho):
+         return ancho * largo
+      # -----------main---------------------------------------------------
+      print("Entre el ancho del rectangulo: ")
+      ancho = int(input())
+      print("Entre el largo del rectangulo: ")
+      largo = int(input())
+      print("The area of the rectangle is: ", areaRectangulo(largo, ancho))
+      #------------end----------------------------------------------------
+
+4. Escriba una funcion en seudocodigo que calcule la siguiente formula: 
+   funCubos(x) = 1 + 3 * x^3 
+
+   function funCubos(x: real): real
+      declare cont: real
+      cont = 1
+      for i = 1 to 3, step = 1
+         cont = cont + 3 * x * i
+      endfor
+      return cont
+   endfunction
+
+5. Escriba una funcion en seudocodigo que calcule la siguiente formula:
+   funZ(x) = 1 + x + x^2 + x^3 + x^4 + x^5 + x^6 + x^7 + x^8 + x^9 + x^10
+
+   function funZ(x: real): real
+      declare cont: real
+      cont = 1
+      for i = 1 to 10, step = 1
+         cont = cont + x * i
+      endfor
+      return cont
+   endfunction
+
+6. Escriba una funcion en seudocodigo que calcule la siguiente formula:
+   potn(x, n) = x * potn(x, n - 1) | n > 0
+   potn(x, 0) = 1 | n == 0
+
+   function potn(x: real, n: integer): real
+      if n == 0 then
+         return 1
+      else
+         return x * potn(x, n - 1)
+      endif
+   endfunction
+
+
+
+  

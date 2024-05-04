@@ -1,0 +1,26 @@
+-------------------------------------
+
+# ciclo for
+
+inicio
+    declarar y, i entero
+    y = 2
+    mostrar y
+    for i = 1 to 12, step = 1
+        y = y * 2
+        mostrar y
+    endfor
+end
+
+------------------------------------
+
+# ciclo while
+
+inicio
+    declarar y entero
+    y = 2
+    while y < 4096 entonces
+        mostrar y
+        y = y * 2
+    endwhile
+end

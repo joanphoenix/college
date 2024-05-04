@@ -1,14 +1,14 @@
 pseudocodigo-sucesionNumeroImpares.py
 
-~ciclo for~
+-----------cicloFor----------------------------------
  inicio
    declarar i es Entero
    for i = 13 to 247, step = 2
  	    display i
    endfor
  end
------------------------------------------------------------------
- ~ciclo while~
+-----------cicloWhile--------------------------------
+
  inicio
    declarar j es Entero
    while j < 247
