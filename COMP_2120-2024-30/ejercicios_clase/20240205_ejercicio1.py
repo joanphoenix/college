@@ -1,5 +1,0 @@
-print("hola, cual es su nombre:")
-name = input()
-print("cual es su edad: ")
-edad = input()
-print("Bienvenido,", name, edad)
